@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-height: max-content;
+  width: 100%;
+  background-color: rgb(237, 235, 227);
+}
+.header {
+  background-color: rgb(61, 58, 58);
+  color: rgb(237, 235, 227);
+}
+.profile-picture {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+main {
+  padding: 3%;
+  transition: all 2s ease-in;
+  display: flex;
+  flex-direction: row;
+  animation: moveup 4s forwards;
+}
+@keyframes moveup {
+  0% {
+    transform: translateY(10rem);
+  }
+}
+.Education {
+  font-size: 1rem;
+}
+.hr {
+  background-color: darkred;
+  width: 6rem;
+  height: 0.1rem;
+  margin: 0 0 0.5rem 0;
+}
+.sub-header {
+  color: darkred;
+  margin: 0.5rem 0 0 0;
+}
+ul {
+  padding: 2% 5%;
+}
+.My-contact-ul {
+  list-style-type: none;
+}
+h3 {
+  color: darkred;
+}
+span {
+  font-style: bolder;
+  color: black;
+  font-weight: 700;
+}
+@media only screen and (max-width: 220px) {
+  .App {
+    display: none;
+  }
+}
+@media (min-width: 221px) and (max-width: 600px) {
+  .App {
+    min-height: max-content;
+  }
+  .header {
+    width: 100%;
+    min-height: max-content;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .profile-picture {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  main {
+    display: block;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .App {
+    min-height: max-content;
+  }
+  .header {
+    width: 100%;
+    min-height: max-content;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .profile-picture {
+    width: 7rem;
+    height: 7rem;
+  }
+  main {
+    display:block;
+  }
+  .site-left{
+    display:inline-block;
+    width: 100%;
+  }
+}
+@media (min-width: 768px)  and (max-width: 992px) {
+  .App {
+    min-height: max-content;
+  }
+  .header {
+    width: 100%;
+    min-height: max-content;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .profile-picture {
+    width: 7rem;
+    height: 7rem;
+  }
+  .site-left {
+    width: 50%;
+  }
+  .site-right {
+    width: 50%;
+  }
+}
+@media (min-width: 993px)  and (min-width: 993px) {
+  .App {
+    min-height: max-content;
+  }
+  .header {
+    width: 100%;
+    min-height: max-content;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .profile-picture {
+    width: 7rem;
+    height: 7rem;
+  }
+  .site-left {
+    width: 50%;
+  }
+  .site-right {
+    width: 50%;
+  }
+}
