@@ -2,6 +2,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
+      <h1>About</h1>
       <p>
         Strong problem solving and analytical skill specialist with one year and
         nine months of experience. Seeking a software company to apply my skills
@@ -18,8 +19,8 @@ const About = () => {
             <div className="hr"></div>
             <ul className="Skills-ul">
               <li className="Skills-l2">HTML, CSS</li>
-              <li className="Skills-l3">React Js, Redux, RestFUL API</li>
-              <li className="Skills-l4">Node Js,Express, MongoDB,Git Hub</li>
+              <li className="Skills-l3">React, Redux, RestFUL API</li>
+              <li className="Skills-l4">Node.js, Express.js, MongoDB,Git Hub</li>
               <li className="Skills-l1">Mendix</li>
               <li className="Skills-l6">Unit testing and Writing Test Cases</li>
               <li className="Skills-l7">Worked on JIRA.</li>
