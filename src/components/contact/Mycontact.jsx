@@ -1,15 +1,24 @@
+import './Mycontact.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 import React from "react";
 
 const Mycontact = () => {
   return (
-    <div className="my-cotact">
-      <h2 className="sub-header">My Contact</h2>
+   
+    <div className="my-contact">
+       <hr className='line' />
       <div className="hr"></div>
       <ul className="My-contact-ul">
-        <li className="My-contact-l1">rupananbarasan@gmail.com</li>
-        <li className="My-contact-l2">9442955869</li>
-        <li className="My-contact-l3">salem,Tamilnadu</li>
-        <li className="My-contact-l4">https://github.com/RupanAnbarasan/cv</li>
+       
+        <li className="contact My-contact-l2">+91 9442955869</li>
+        <li className="contact My-contact-l3">Salem,Tamilnadu</li>
+      </ul>
+      <ul className='social-media'>
+      <li><a href='https://github.com/RupanAnbarasan'><GitHubIcon className='social-icon' /></a></li>
+        <li><a href='https://www.linkedin.com/in/rupan-anbarasan-no9442955869/'><LinkedInIcon className='social-icon'/></a></li>
+        <li><a href='mailto:rupananbarasan@gmail.com'><EmailIcon className='social-icon'/></a></li>
       </ul>
     </div>
   );

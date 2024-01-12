@@ -1,0 +1,31 @@
+.social-icon{
+    color: black;
+}
+.my-contact{
+height: 30vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 2em;
+}
+.contact{
+     color: black;
+     font-size: 1.2em;
+}
+.My-contact-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media{
+    display: flex;
+     list-style: none;
+     gap: 1em;
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
