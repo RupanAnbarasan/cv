@@ -13,6 +13,7 @@ const Home = () => {
       <hr />
       <div>
         <About />
+        <hr/>
         <Project />
         <Contact />
       </div>
