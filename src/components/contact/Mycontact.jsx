@@ -8,17 +8,15 @@ const Mycontact = () => {
   return (
    
     <div className="my-contact">
-       <hr className='line' />
-      <div className="hr"></div>
       <ul className="My-contact-ul">
        
         <li className="contact My-contact-l2">+91 9442955869</li>
         <li className="contact My-contact-l3">Salem,Tamilnadu</li>
       </ul>
       <ul className='social-media'>
-      <li><a href='https://github.com/RupanAnbarasan' target="_blank"><GitHubIcon className='social-icon' /></a></li>
-        <li><a href='https://www.linkedin.com/in/rupan-anbarasan-no9442955869/'target="_blank"><LinkedInIcon className='social-icon'/></a></li>
-        <li><a href='mailto:rupananbarasan@gmail.com' target="_blank"><EmailIcon className='social-icon'/></a></li>
+      <li><a href='https://github.com/RupanAnbarasan' rel="noreferrer"target="_blank"><GitHubIcon className='social-icon' /></a></li>
+        <li><a href='https://www.linkedin.com/in/rupan-anbarasan-no9442955869/'rel="noreferrer"target="_blank"><LinkedInIcon className='social-icon'/></a></li>
+        <li><a href='mailto:rupananbarasan@gmail.com' rel="noreferrer" target="_blank"><EmailIcon className='social-icon'/></a></li>
       </ul>
     </div>
   );
