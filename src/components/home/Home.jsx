@@ -1,7 +1,6 @@
 import './Home.css';
 import React from "react";
-import About from "../about/about";
-import Education from "../education/Education";
+import About from "../about/About";
 import Project from "../projects/project";
 import Contact from "../contact/Mycontact";
 const Home = () => {
