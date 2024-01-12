@@ -1,0 +1,77 @@
+.project-container {
+    min-height: 100vh;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    overflow: visible;
+  }
+  
+  .project-container h1 {
+    margin: 1.5rem;
+  }
+  
+  .projects, .personal-projects {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    max-width: 100%; /* Adjust the width as needed */
+    padding: 1rem;
+  }
+  
+  .project-section {
+    height: 23rem;
+    min-width: 32rem;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 10px 10px 11px -4px rgba(0, 0, 0, 0.41);
+    border-radius: 10px;
+  }
+  
+  .project-section h2 {
+    padding: 1rem;
+  }
+  .project-section strong{
+    font-size: large;
+  }
+  .project-section:hover h2,
+  .project-section:hover .duration,
+  .project-section:hover .role {
+    display: none;
+  }
+  
+  .overview, .technologies {
+    display: none;
+  }
+  
+  .project-section:hover .technologies,  
+  .project-section:hover .overview
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  
+  .projects::-webkit-scrollbar, .personal-projects::-webkit-scrollbar {
+    width: 0.3em;
+    height: 0.3em;
+  }
+  
+  .projects::-webkit-scrollbar-track,.personal-projects::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+  
+  .projects::-webkit-scrollbar-thumb,.personal-projects::-webkit-scrollbar-thumb {
+    background-color: rgb(194, 192, 192);
+    border-radius: 20px;
+    border: none;
+  }
