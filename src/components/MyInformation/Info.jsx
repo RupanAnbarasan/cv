@@ -1,4 +1,4 @@
-import './About.css';
+import './information.css';
 import React from "react";
 const About = () => {
   return (
