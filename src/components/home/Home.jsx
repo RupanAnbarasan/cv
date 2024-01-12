@@ -1,6 +1,6 @@
 import './Home.css';
 import React from "react";
-import About from "../about/About";
+import About from "../about/About"
 import Project from "../projects/project";
 import Contact from "../contact/Mycontact";
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <hr />
       <div>
         <About />
-        <hr/>
+<hr/>
         <Project />
         <Contact />
       </div>
